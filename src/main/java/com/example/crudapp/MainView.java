@@ -14,7 +14,7 @@ public class MainView extends VerticalLayout {
     private TextField firstName = new TextField("First name");
     private TextField lastName = new TextField("Last name");
     private Button save = new Button("Save");
-    private Button delete = new Button("Delete");
+    private Button delete = new Button("Remove Customer");
 
     public MainView(CustomerRepository repository) {
         this.repository = repository;
